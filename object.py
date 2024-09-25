@@ -10,6 +10,10 @@ class Color(Enum):
 class Object:
     def __init__(self, object_id, size, color):
         self.id=object_id
-        self.colour=color
-        object.size=size
+        self.color=color
+        self.size=size
+        self.left=None
+        self.right=None
+        self.height=1
+        self.bin_id=None
         pass
